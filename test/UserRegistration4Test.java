@@ -22,7 +22,7 @@ class UserRegistration4Test {
 
         {
 
-            Assertions.assertTrue(object.validateEmail("^[a-zA-Z0-9]+[\\.\\-\\+\\_]?[a-zA-Z0-9]*@[a-zA-Z]+[.]?[a-zA-Z]{2,4}[\\.]?([a-z]{2})?$", "ashok.patel@gmail.com.in"));
+            Assertions.assertTrue(object.validateEmail("^[a-zA-Z0-9]+[\\.\\-\\+\\_]?[a-zA-Z0-9]*@[a-zA-Z]+[.]?[a-zA-Z]{2,4}[\\.]?([a-z]{2})?$", "abc@gmail.com.in"));
         }
 
 
